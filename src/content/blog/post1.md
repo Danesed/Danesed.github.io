@@ -1,21 +1,20 @@
 ---
-title: "Attention is all you Need"
-description: "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin"
-pubDate: "Sep 10 2022"
-heroImage: "https://miro.medium.com/v2/resize:fit:863/0*jKqypwGzmDv7KDUZ.png"
-badge: "NeurIPS"
-tags: ["Transformers","Deep learning"]
+title: "Ducho 2.0: Towards a More Up-to-Date Feature Extraction and Processing Framework for Multimodal Recommendation"
+description: "Matteo Attimonelli, Danilo Danese, Daniele Malitesta, Claudio Pomo, Giuseppe Gassi, Tommaso Di Noia"
+pubDate: "(Accepted on 4th March 2024)"
+heroImage: "https://github.com/sisinflab/Ducho/blob/main/docs/source/img/ducho_v2_overview.png"
+badge: "WWW 2024"
+tags: ["Multimodal Feature Extraction","Recommendation"]
 ---
 
-The dominant sequence transduction models are based on complex recurrent or
-convolutional neural networks that include an encoder and a decoder. The best
-performing models also connect the encoder and decoder through an attention
-mechanism. We propose a new simple network architecture, the Transformer,
-based solely on attention mechanisms, dispensing with recurrence and convolutions
-entirely. Experiments on two machine translation tasks show these models to
-be superior in quality while being more parallelizable and requiring significantly
-less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including
-ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task,
-our model establishes a new single-model state-of-the-art BLEU score of 41.0 after
-training for 3.5 days on eight GPUs, a small fraction of the training costs of the
-best models from the literature.
+In this work, we introduce Ducho 2.0, the latest stable version
+of our framework. Differently from Ducho, Ducho 2.0 offers a
+more personalized user experience with the definition and import of custom extraction models fine-tuned on specific tasks and
+datasets. Moreover, the new version is capable of extracting and
+processing features through multimodal-by-design large models.
+Notably, all these new features are supported by optimized data
+loading and storing to the local memory. To showcase the capabilities of Ducho 2.0, we demonstrate a complete multimodal recommendation pipeline, from the extraction/processing to the final
+recommendation. The idea is to provide practitioners and experienced scholars with a ready-to-use tool that, put on top of any
+multimodal recommendation framework, may permit them to run
+extensive benchmarking analyses. All materials are accessible at:
+https://github.com/sisinflab/Ducho.
