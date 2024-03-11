@@ -1,7 +1,7 @@
 ---
 title: "Ducho 2.0: Towards a More Up-to-Date Feature Extraction and Processing Framework for Multimodal Recommendation"
 description: "Matteo Attimonelli, Danilo Danese, Daniele Malitesta, Claudio Pomo, Giuseppe Gassi, Tommaso Di Noia"
-pubDate: "Accepted on 4th March 2024"
+pubDate: "Mar 4 2024"
 heroImage: "https://github.com/sisinflab/Ducho/blob/main/docs/source/img/ducho_v2_overview.png"
 badge: "WWW 2024"
 tags: ["Multimodal Feature Extraction","Recommendation"]
